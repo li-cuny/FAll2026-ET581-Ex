@@ -28,5 +28,18 @@ public class IfTest {
                 break;
         }
         // after break come here 
+
+        int number = 3;
+
+        if (number > 50){
+            // number > 50 
+            System.out.println("number less than 50");
+        } else if (number > 30) {
+           // number <= 50 and number >30
+            System.out.println("number <= 50 and number > 30 ");
+        } else {
+            System.out.println("number < = 30");
+            // number <= 30 
+        }
     }
 }
