@@ -1,3 +1,4 @@
+import java.util.Random;
 public class MathTest {
     public static void main(String[] args){
         double randomNumber = Math.random(); // 0.0 - 1.0 not include 1.0
@@ -11,6 +12,10 @@ public class MathTest {
         System.out.println(Math.max(204,203));
         System.out.println(Math.min(204,203));
         System.out.println(Math.pow(2,4));
+
+        // Random class 
+        Random random = new Random();
+        System.out.println("Random double " + random.nextDouble());
 
     }
 }
