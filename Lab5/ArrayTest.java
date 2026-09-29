@@ -30,5 +30,9 @@ public class ArrayTest {
         System.out.println(Arrays.toString(doubleArray2));
         //third way
         int[] intArray3 = new int[] {1,2,4};
+        int size = 10;
+        int[] intArray4 = new int[size];
+        System.out.println(Arrays.toString(intArray3));
+        System.out.println(Arrays.toString(intArray4));
     }
 }
