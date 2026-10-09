@@ -5,4 +5,7 @@ public class Student {
     public Student(){
         total ++;
     }
+    public static void printHello(){
+        System.out.println("Hello Student");
+    }
 }

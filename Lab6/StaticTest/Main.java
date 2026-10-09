@@ -9,5 +9,7 @@ public class Main {
         System.out.println(s1.name + s1.age);
         System.out.println(s2.name + s2.age);
         System.out.println(Student.total); // static member should call with Class name since it is class level
+        //s1.printHello(); // but not recommended.
+        Student.printHello();
     }
 }
