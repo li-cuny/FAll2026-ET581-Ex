@@ -4,6 +4,9 @@ public class Animal {
     void eat(){
         System.out.print("Animal eats.");
     }
+    void eat(String food){ // overloading. in one class two or more method.
+
+    }
 
     Animal(){
         System.out.println("Animal() is called.");
